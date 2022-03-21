@@ -13,10 +13,15 @@ export const AccountSelector = ({ label, icon, className, style }) => {
 				<div className="d-flex align-items-center">
 					<img height="30" src={UkSend} alt="" style={{ marginRight: "8px" }} />
 					<div>
-						<p className="small font-bold" style={{ marginBottom: "4px" }}>
+						<p
+							className="small font-bold"
+							style={{ marginBottom: "4px", fontSize: "12px" }}
+						>
 							Mali Industries
 						</p>
-						<p className="small">maliindustries@gmail.com</p>
+						<p className="small" style={{ fontSize: "12px" }}>
+							maliindustries@gmail.com
+						</p>
 					</div>
 				</div>
 				<div className="dropdown">

@@ -5,7 +5,7 @@ import styles from "./Pagination.module.scss";
 export const Pagination = ({ label, icon, className, style }) => {
 	return (
 		<div className={styles.Pagination}>
-			<p className="" style={{ marginRight: "20px" }}>
+			<p className="text-gray" style={{ marginRight: "20px" }}>
 				Showing 1-6 of 75 results
 			</p>
 			<a href="#">1</a>

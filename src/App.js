@@ -1,10 +1,5 @@
 import "./App.scss";
-import {
-	PageHeader,
-	Pagination,
-	QuoteItem,
-	SideNavigation,
-} from "./components";
+import { PageHeader, PageTabs, QuoteList, SideNavigation } from "./components";
 
 function App() {
 	return (
@@ -12,14 +7,8 @@ function App() {
 			<SideNavigation />
 			<div className="content">
 				<PageHeader />
-				<QuoteItem />
-				<QuoteItem />
-				<QuoteItem />
-				<QuoteItem />
-				<QuoteItem />
-				<QuoteItem />
-				<QuoteItem />
-				<Pagination />
+				<PageTabs />
+				<QuoteList />
 			</div>
 		</div>
 	);

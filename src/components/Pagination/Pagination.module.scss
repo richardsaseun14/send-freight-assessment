@@ -4,7 +4,11 @@
 	display: flex;
 	font-size: 12px;
 	input {
-		width: 2em;
+		width: 2.8em;
+		height: 32px;
+		border: 1px solid #eaedf3;
+		box-sizing: border-box;
+		border-radius: 8px;
 	}
 	a {
 		color: black;

@@ -1,11 +1,26 @@
 import "./App.scss";
-import { SideNavigation } from "./components";
+import {
+	PageHeader,
+	Pagination,
+	QuoteItem,
+	SideNavigation,
+} from "./components";
 
 function App() {
 	return (
 		<div className="">
 			<SideNavigation />
-			<div className="content">Hello from here</div>
+			<div className="content">
+				<PageHeader />
+				<QuoteItem />
+				<QuoteItem />
+				<QuoteItem />
+				<QuoteItem />
+				<QuoteItem />
+				<QuoteItem />
+				<QuoteItem />
+				<Pagination />
+			</div>
 		</div>
 	);
 }

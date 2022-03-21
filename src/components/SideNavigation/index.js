@@ -31,14 +31,14 @@ export const SideNavigation = () => {
 		<div className={styles.SideNav}>
 			<img src={Logo} className={styles.Logo} alt="" />
 			<ul className="flex-grow-1 w-100">
-				{mainLinks.map(({ label, icon }) => (
-					<NavigationItem label={label} icon={icon} />
+				{mainLinks.map(({ label, icon }, index) => (
+					<NavigationItem key={index} label={label} icon={icon} />
 				))}
 				<hr
 					style={{ margin: "15px 0", backgroundColor: "#81868c", opacity: 0.1 }}
 				/>
-				{otherLinks.map(({ label, icon }) => (
-					<NavigationItem label={label} icon={icon} />
+				{otherLinks.map(({ label, icon }, index) => (
+					<NavigationItem key={index} label={label} icon={icon} />
 				))}
 			</ul>
 

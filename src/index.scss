@@ -216,10 +216,28 @@ table {
 	color: #0747a6;
 }
 
+.text-pending {
+	color: #f7c244;
+}
+
+.text-ready {
+	color: #5cc685;
+}
+
 .text-gray {
 	color: #81868c;
 }
 
 .quotes {
 	padding: 0 40px;
+}
+
+div.tab-active {
+	border-bottom: 3px solid #0747a6;
+	// background-color: rgb(187, 33, 33);
+}
+
+div:not(.tab-active) {
+	background-color: transparent;
+	border-bottom: 3px solid transparent;
 }

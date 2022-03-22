@@ -4,16 +4,15 @@
 	margin: 28px 0;
 	overflow: hidden;
 	border-bottom: 1px solid #81868c1b;
-	// background-color: #f1f1f1;
-	button {
-		border: none;
+	display: flex;
+	div {
 		outline: none;
 		background-color: transparent;
 		cursor: pointer;
 		padding: 16px 0 16px 0;
 		margin-right: 28px;
-		border-bottom: 3px solid transparent;
 		transition: 0.3s;
+		font-size: 14px;
 		span {
 			background-color: #e9ecf199;
 			margin-left: 8px;
@@ -22,14 +21,8 @@
 			color: #737a91;
 			font-weight: 600;
 		}
-		&:hover {
-			// background-color: #ddd;
+		&:hover:not(.tab-active) {
 			border-bottom: 3px solid #0747a6;
 		}
 	}
-}
-
-.Tabs button.tablinks.active {
-	border-bottom: 3px solid #0747a6;
-	background-color: rgb(187, 33, 33);
 }
